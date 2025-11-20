@@ -1,0 +1,4 @@
+trial_id,config,key_ttl,theft_delay,upload_time,registry_response,detection_latency,blocked_by,artifacts_accepted_before_detection,monitor_would_have_detected
+1,baseline,none,0,1763592017.372973,ACCEPTED,0.0009732246398925781,transparency_log_monitor,1,True
+2,baseline,none,0,1763592087.3977962,ACCEPTED,,none,1,False
+3,baseline,none,0,1763592157.42137,ACCEPTED,,none,2,False

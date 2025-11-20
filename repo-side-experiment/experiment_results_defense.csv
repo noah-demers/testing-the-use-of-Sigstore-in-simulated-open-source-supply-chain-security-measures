@@ -1,0 +1,10 @@
+trial_id,config,key_ttl,theft_delay,upload_time,registry_response,detection_latency,blocked_by,artifacts_accepted_before_detection,monitor_would_have_detected
+1,defense,600,0,1763592227.67248,ACCEPTED,,none,1,False
+2,defense,600,0,1763592297.688425,ACCEPTED,,none,2,False
+3,defense,600,0,1763592367.748618,ACCEPTED,,none,3,False
+4,defense,600,300,1763592437.812602,ACCEPTED,,none,4,False
+5,defense,600,300,1763592807.89091,REJECTED,0,key_expiration,4,False
+6,defense,600,300,1763593108.003478,REJECTED,0,key_expiration,0,False
+7,defense,600,700,1763593408.156739,REJECTED,0,key_expiration,0,False
+8,defense,600,700,1763594108.2795148,REJECTED,0,key_expiration,0,False
+9,defense,600,700,1763594808.370317,REJECTED,0,key_expiration,0,False

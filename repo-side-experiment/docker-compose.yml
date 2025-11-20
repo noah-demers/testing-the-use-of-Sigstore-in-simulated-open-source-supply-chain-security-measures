@@ -1,0 +1,95 @@
+version: '3.8'
+
+services:
+  rekor:
+    image: gcr.io/projectsigstore/rekor-server:latest
+    container_name: rekor-server
+    ports:
+      - "3000:3000"
+    environment:
+      - REKOR_SERVER_ADDRESS=0.0.0.0
+      - REKOR_SERVER_PORT=3000
+    volumes:
+      - rekor_data:/var/lib/rekor
+    networks:
+      - sigstore-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/v1/log"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  verdaccio:
+    image: verdaccio/verdaccio:latest
+    container_name: verdaccio-registry
+    ports:
+      - "4873:4873"
+    volumes:
+      - verdaccio_storage:/verdaccio/storage
+      - verdaccio_plugins:/verdaccio/plugins
+      - ./verdaccio-config.yaml:/verdaccio/conf/config.yaml
+    environment:
+      - VERDACCIO_APPDIR=/verdaccio
+    networks:
+      - sigstore-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4873/-/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  kam-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.kam
+    container_name: kam-service
+    ports:
+      - "8000:8000"
+    environment:
+      - KAM_STORAGE_PATH=/data/kam_map.json
+    volumes:
+      - kam_data:/data
+    networks:
+      - sigstore-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/all"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    networks:
+      - sigstore-net
+    volumes:
+      - redis_data:/data
+
+  trillian-db:
+    image: mysql:8.0
+    container_name: trillian-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=trillian
+      - MYSQL_USER=trillian
+      - MYSQL_PASSWORD=trillian
+    ports:
+      - "3306:3306"
+    networks:
+      - sigstore-net
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+networks:
+  sigstore-net:
+    driver: bridge
+
+volumes:
+  rekor_data:
+  verdaccio_storage:
+  verdaccio_plugins:
+  kam_data:
+  redis_data:
+  mysql_data:
