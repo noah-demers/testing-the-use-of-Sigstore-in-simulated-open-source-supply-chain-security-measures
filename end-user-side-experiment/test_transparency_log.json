@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "log_index": 0,
+      "package_name": "mypackage",
+      "artifact_hash": "cdb4792c1942c7982b788a15922e4b25220b037a313fd893d6449b21036a225b",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1763595495.1722019,
+      "cert_valid_from": 1763594995.1722019,
+      "cert_valid_until": 1763595595.1722019,
+      "logged_at": 1763595996.229536
+    }
+  ],
+  "next_index": 1
+}

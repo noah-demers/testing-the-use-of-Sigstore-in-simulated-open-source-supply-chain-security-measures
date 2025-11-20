@@ -1,0 +1,91 @@
+trial_id,scenario,config,package_name,is_malicious,attack_type,signature_valid,identity_verified,in_transparency_log,timestamp_valid,verification_result,verification_latency_ms,failure_reason
+1,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.25,none
+2,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+3,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.02,none
+4,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+5,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.02,none
+6,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.02,none
+7,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+8,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+9,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+10,compromised_package,baseline,,True,stolen_key_within_ttl,True,N/A,N/A,N/A,PASSED,0.03,none
+1,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+2,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+3,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.09,none
+4,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+5,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.04,none
+6,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.05,none
+7,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.11,none
+8,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+9,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+10,backdated_package,baseline,,True,rollback_attack,True,N/A,N/A,N/A,PASSED,0.03,none
+1,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.03,none
+2,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.03,none
+3,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.02,none
+4,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.02,none
+5,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.05,none
+6,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.03,none
+7,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.03,none
+8,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.02,none
+9,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.02,none
+10,malicious_mirror,baseline,,True,mirror_substitution,True,N/A,N/A,N/A,PASSED,0.02,none
+1,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+2,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+3,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.07,none
+4,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+5,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.04,none
+6,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+7,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+8,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+9,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+10,typosquatting,baseline,,True,typosquatting_with_stolen_key,True,N/A,N/A,N/A,PASSED,0.03,none
+1,legitimate,baseline,,False,none,True,N/A,N/A,N/A,PASSED,0.03,none
+2,legitimate,baseline,,False,none,True,N/A,N/A,N/A,PASSED,0.03,none
+3,legitimate,baseline,,False,none,True,N/A,N/A,N/A,PASSED,0.03,none
+4,legitimate,baseline,,False,none,True,N/A,N/A,N/A,PASSED,0.02,none
+5,legitimate,baseline,,False,none,True,N/A,N/A,N/A,PASSED,0.03,none
+1,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.72,identity_not_authorized: attacker@malicious.com cannot publish compromised
+2,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.07,identity_not_authorized: attacker@malicious.com cannot publish compromised
+3,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.25,identity_not_authorized: attacker@malicious.com cannot publish compromised
+4,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.07,identity_not_authorized: attacker@malicious.com cannot publish compromised
+5,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.1,identity_not_authorized: attacker@malicious.com cannot publish compromised
+6,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.18,identity_not_authorized: attacker@malicious.com cannot publish compromised
+7,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.06,identity_not_authorized: attacker@malicious.com cannot publish compromised
+8,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.06,identity_not_authorized: attacker@malicious.com cannot publish compromised
+9,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.08,identity_not_authorized: attacker@malicious.com cannot publish compromised
+10,compromised_package,defense,,True,stolen_key_within_ttl,True,False,False,False,FAILED,0.06,identity_not_authorized: attacker@malicious.com cannot publish compromised
+1,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.27,certificate_expired_suspicious_timing
+2,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.14,certificate_expired_suspicious_timing
+3,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.22,certificate_expired_suspicious_timing
+4,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.14,certificate_expired_suspicious_timing
+5,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.17,certificate_expired_suspicious_timing
+6,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.25,certificate_expired_suspicious_timing
+7,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.13,certificate_expired_suspicious_timing
+8,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.12,certificate_expired_suspicious_timing
+9,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.14,certificate_expired_suspicious_timing
+10,backdated_package,defense,,True,rollback_attack,True,True,True,False,FAILED,0.13,certificate_expired_suspicious_timing
+1,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.05,identity_not_authorized: attacker@malicious.com cannot publish mirror
+2,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.05,identity_not_authorized: attacker@malicious.com cannot publish mirror
+3,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.05,identity_not_authorized: attacker@malicious.com cannot publish mirror
+4,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.1,identity_not_authorized: attacker@malicious.com cannot publish mirror
+5,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.07,identity_not_authorized: attacker@malicious.com cannot publish mirror
+6,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.06,identity_not_authorized: attacker@malicious.com cannot publish mirror
+7,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.06,identity_not_authorized: attacker@malicious.com cannot publish mirror
+8,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.12,identity_not_authorized: attacker@malicious.com cannot publish mirror
+9,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.08,identity_not_authorized: attacker@malicious.com cannot publish mirror
+10,malicious_mirror,defense,,True,mirror_substitution,True,False,False,False,FAILED,0.05,identity_not_authorized: attacker@malicious.com cannot publish mirror
+1,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.28,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+2,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.07,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+3,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.05,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+4,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.09,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+5,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.11,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+6,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.12,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+7,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.27,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+8,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.08,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+9,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.06,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+10,typosquatting,defense,,True,typosquatting_with_stolen_key,True,False,False,False,FAILED,0.06,identity_not_authorized: requests-maintainer@python.org cannot publish reqeusts
+1,legitimate,defense,,False,none,True,True,True,True,PASSED,3.79,none
+2,legitimate,defense,,False,none,True,True,True,True,PASSED,0.15,none
+3,legitimate,defense,,False,none,True,True,True,True,PASSED,0.15,none
+4,legitimate,defense,,False,none,True,True,True,True,PASSED,0.66,none
+5,legitimate,defense,,False,none,True,True,True,True,PASSED,0.15,none

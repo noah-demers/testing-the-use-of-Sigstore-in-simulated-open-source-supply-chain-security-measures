@@ -1,0 +1,455 @@
+{
+  "entries": [
+    {
+      "log_index": 0,
+      "package_name": "compromised",
+      "artifact_hash": "25c99eb5a4f21c9beea4f9b645cd9179e2a26aed52eaaf6a9aa775c07a650d53",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913590.7093031
+    },
+    {
+      "log_index": 1,
+      "package_name": "compromised",
+      "artifact_hash": "cd062afe5b3305c6280593a5fd560da46ebc9c5bdb6960a35003bdf886c1aa6e",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913590.8148868
+    },
+    {
+      "log_index": 2,
+      "package_name": "compromised",
+      "artifact_hash": "8fe1a1f130d4e557a6a128db30d6fbd9077aeebe33ea76528e5bdc4da76e1618",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913590.924818
+    },
+    {
+      "log_index": 3,
+      "package_name": "compromised",
+      "artifact_hash": "987195414e7b843a3cdc5b83ed16b52baca7fda0c67da8096ec607f3731dfdf9",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.034705
+    },
+    {
+      "log_index": 4,
+      "package_name": "compromised",
+      "artifact_hash": "da980e6892076642f4e8aa67a62ab4bd8b37ade8418e4ebffd512bc65bc3d716",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.138078
+    },
+    {
+      "log_index": 5,
+      "package_name": "compromised",
+      "artifact_hash": "cd8423d3ef796f0c9d109d8cc176fe2048ce8108c5fe490aefb2fc4fdfa157ca",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.242704
+    },
+    {
+      "log_index": 6,
+      "package_name": "compromised",
+      "artifact_hash": "e00fe198554c1d05646715c3454e387ee078bae0e4211b7b1003145f6e01a80c",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.349056
+    },
+    {
+      "log_index": 7,
+      "package_name": "compromised",
+      "artifact_hash": "0ef5e75c9caeddf6fa8aad5a77f81774d4cdd25cbbd7ccc3fb620098ecca0710",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.454714
+    },
+    {
+      "log_index": 8,
+      "package_name": "compromised",
+      "artifact_hash": "cb53fa04a8d08a0a9c37f9d170db21d6cf105481f9f4ee18a2684cc69fad1876",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.562125
+    },
+    {
+      "log_index": 9,
+      "package_name": "compromised",
+      "artifact_hash": "51f73ba29bf2b76918ba7af89672481cba4d32e0d01877eb346d7bd9163f3c6e",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913591.669974
+    },
+    {
+      "log_index": 10,
+      "package_name": "mypackage",
+      "artifact_hash": "cb1e2dfa3c0bd5153ce08d5a0411e9f425f6c046fffb52335eb085809c4a91dd",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913591.7771509
+    },
+    {
+      "log_index": 11,
+      "package_name": "mypackage",
+      "artifact_hash": "c662f6990469236f917c178097e8de81bef4eab225cd3cb20090ceb70ff93d05",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913591.881558
+    },
+    {
+      "log_index": 12,
+      "package_name": "mypackage",
+      "artifact_hash": "1ddab7bf0b02d86fdce6bc17f04993ef6c5c388fbd34e382758ac82bbedf1746",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913591.98773
+    },
+    {
+      "log_index": 13,
+      "package_name": "mypackage",
+      "artifact_hash": "335edad6bb7f49466968de4fb26e00085e5ed175de9ab45a5581cfa80237510e",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.090793
+    },
+    {
+      "log_index": 14,
+      "package_name": "mypackage",
+      "artifact_hash": "34cb35f4986a38dacc385ec3b7181573d2abfb2f1bd687c708028077270e0e11",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.1988301
+    },
+    {
+      "log_index": 15,
+      "package_name": "mypackage",
+      "artifact_hash": "4bb5cf398f87c1d09a4f34a71d9ef53af6fb96e7cb90962138d63771e4265914",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.307144
+    },
+    {
+      "log_index": 16,
+      "package_name": "mypackage",
+      "artifact_hash": "5994a7c362f794702a88c2f0a56fccf0375af4a7cc770b1435ef18be7c6d6f1b",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.414504
+    },
+    {
+      "log_index": 17,
+      "package_name": "mypackage",
+      "artifact_hash": "782e5d5a927af8fe545bd7f5343d50199aacc6e8d6d834e62a7a251f7f3132ae",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.520056
+    },
+    {
+      "log_index": 18,
+      "package_name": "mypackage",
+      "artifact_hash": "fe5cf9afeb4954ed36725e50b7fedc4181d924973de25338a2eb99677a54e846",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.625866
+    },
+    {
+      "log_index": 19,
+      "package_name": "mypackage",
+      "artifact_hash": "2c7d7f6f9e72932c78284878c20069c0c8be1fc1df54ab333f92f4abfa61c318",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913086.436866,
+      "cert_valid_from": 1762912586.436866,
+      "cert_valid_until": 1762913186.436866,
+      "logged_at": 1762913592.732097
+    },
+    {
+      "log_index": 20,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913592.8391628
+    },
+    {
+      "log_index": 21,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913592.9474812
+    },
+    {
+      "log_index": 22,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.0522869
+    },
+    {
+      "log_index": 23,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.15647
+    },
+    {
+      "log_index": 24,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.2638059
+    },
+    {
+      "log_index": 25,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.371357
+    },
+    {
+      "log_index": 26,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.4799209
+    },
+    {
+      "log_index": 27,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.586114
+    },
+    {
+      "log_index": 28,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.691917
+    },
+    {
+      "log_index": 29,
+      "package_name": "mirror",
+      "artifact_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "signer_identity": "attacker@malicious.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.798516
+    },
+    {
+      "log_index": 30,
+      "package_name": "reqeusts",
+      "artifact_hash": "75c4bda8862e7fbc450a7b5ccfa4b0ac9d29d617b152ed79a123dccb6304aaca",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913593.908261
+    },
+    {
+      "log_index": 31,
+      "package_name": "reqeusts",
+      "artifact_hash": "3d1ab05808f08c9c573bf09ad5b646f2fe1817b7cfe980acb81360205d3251f3",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.017399
+    },
+    {
+      "log_index": 32,
+      "package_name": "reqeusts",
+      "artifact_hash": "8c1d1820d7e0cd6c21d83486922e83cf4e1f6aa258d9d3206be8541fe487b6b0",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.125799
+    },
+    {
+      "log_index": 33,
+      "package_name": "reqeusts",
+      "artifact_hash": "f19aa1611e2f9229108c6d55a64b419cc91d2f2a074d0de1bc05b552e3b6057a",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.235706
+    },
+    {
+      "log_index": 34,
+      "package_name": "reqeusts",
+      "artifact_hash": "349e7ff4d6a17d39725e64c3ed71232383ebe82f96d3257767d6514ea97105cb",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.344953
+    },
+    {
+      "log_index": 35,
+      "package_name": "reqeusts",
+      "artifact_hash": "a906d5d356a155297f88e52959828768fce49b88ced5f0e7708c86ffd42a6b5f",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.452363
+    },
+    {
+      "log_index": 36,
+      "package_name": "reqeusts",
+      "artifact_hash": "0e588965b04814b386076556192217b046f2d7d8b9dc0ac28fced1be4afaa3df",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.5580502
+    },
+    {
+      "log_index": 37,
+      "package_name": "reqeusts",
+      "artifact_hash": "02a53aa323dd9e010db2c8b1a84d11b540c3a518bc62c053ab0288944b2de23a",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.664762
+    },
+    {
+      "log_index": 38,
+      "package_name": "reqeusts",
+      "artifact_hash": "2db385a7d877c19921cf845fd18a9cf0f225e735becee3a9d5a036fe435a4b47",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.774074
+    },
+    {
+      "log_index": 39,
+      "package_name": "reqeusts",
+      "artifact_hash": "c36b72fdccc211d961884f5a4ff47a7de6e2f92e65b16bbad73a442a2c3b9be8",
+      "signer_identity": "requests-maintainer@python.org",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.8843231
+    },
+    {
+      "log_index": 40,
+      "package_name": "legitimate_pkg",
+      "artifact_hash": "484a587490b151c59742ae95d864ab9089324cd758dfd5714832df3f4e1eff42",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.989068
+    },
+    {
+      "log_index": 41,
+      "package_name": "legitimate_pkg",
+      "artifact_hash": "1c975dec0721ed503b1c62d71cdb8994fa649e9415a03b850c53cb3ae46fe203",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.99151
+    },
+    {
+      "log_index": 42,
+      "package_name": "legitimate_pkg",
+      "artifact_hash": "0c96d745ed88491c2a7c10082fa2c1e8de7ec66620c61fc35300dd1af0c7a98f",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.9941492
+    },
+    {
+      "log_index": 43,
+      "package_name": "legitimate_pkg",
+      "artifact_hash": "209c2b24f593a6a561194a9823d73d6c92dd55fbb03dd78092c68940640cde56",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913594.998239
+    },
+    {
+      "log_index": 44,
+      "package_name": "legitimate_pkg",
+      "artifact_hash": "676bbdf80464e0a9dda2bf5c4b9965d2b7870791aa91eb11fc5a182cf460f46a",
+      "signer_identity": "publisher@example.com",
+      "signing_time": 1762913591.436866,
+      "cert_valid_from": 1762913586.436866,
+      "cert_valid_until": 1762914186.436866,
+      "logged_at": 1762913595.0011468
+    }
+  ],
+  "next_index": 45
+}

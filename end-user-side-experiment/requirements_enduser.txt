@@ -1,0 +1,15 @@
+# End-User Experiment Requirements
+# All dependencies are Python standard library - no external packages needed
+
+# Python 3.7+ required for:
+# - typing annotations
+# - f-strings
+# - dataclasses support
+
+# Standard library modules used:
+# - json
+# - csv
+# - time
+# - hashlib
+# - os
+# - typing

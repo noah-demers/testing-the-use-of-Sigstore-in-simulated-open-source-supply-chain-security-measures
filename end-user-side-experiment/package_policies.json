@@ -1,0 +1,26 @@
+{
+  "publisher@example.com": {
+    "authorized_packages": [
+      "legitimate_pkg",
+      "example_package",
+      "mypackage"
+    ],
+    "description": "Verified example.com maintainer"
+  },
+  "requests-maintainer@python.org": {
+    "authorized_packages": [
+      "requests"
+    ],
+    "description": "Official requests library maintainer"
+  },
+  "mirror-maintainer@cdn.org": {
+    "authorized_packages": [
+      "mirror_pkg"
+    ],
+    "description": "CDN mirror package maintainer"
+  },
+  "attacker@malicious.com": {
+    "authorized_packages": [],
+    "description": "Unauthorized attacker account"
+  }
+}
