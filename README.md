@@ -1,4 +1,6 @@
 # testing-the-use-of-Sigstore-in-simulated-open-source-supply-chain-security-measures
+
+Please read the pdf paper in this repository for the full report on my research for the Naval Information Warfare Center internship at the University of Hawaii at Manoa.
 This repo is a hands-on experiment that compares traditional key-pair security measures to Sigstore incorporated security measures, both at the beginning of the software supply chain, which is an open-source repository such as PyPI, npm, etc. and at the end-user side. 
 
 ## How to run
